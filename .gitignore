@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+venv/
+env/
+
+# Streamlit/Keys
+.streamlit/secrets.toml
+
+# Local Data/Logs
+data/eval_logs.json
+!data/eval_logs.json.example
