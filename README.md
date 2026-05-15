@@ -6,6 +6,12 @@ LLMGuardOps AI is a production-style safety gateway built to monitor, evaluate, 
 
 ---
 
+## 🚀 Live Demo
+**Try the interactive safety gateway here:** [https://llmguardops-ai.streamlit.app/](https://llmguardops-ai.streamlit.app/)
+
+
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -32,7 +38,7 @@ LLMGuardOps/
 
 ---
 
-## 🚀 Core Logic & Workflow
+## ⚙️ Core Logic & Workflow
 
 ```mermaid
 graph
@@ -132,14 +138,15 @@ GROQ_API_KEY = "your_groq_api_key_here"
 
 ```
 
-### **3. Execution**
-
-Run the dashboard directly from the project root:
-
-```bash
-streamlit run dashboard/app.py
-
-```
 ---
 
-*Developed for Enterprise AI Safety and Real-time Guardrail Enforcement.*
+## 🛡️ Acknowledgments
+This project leverages cutting-edge inference and deployment tools to enable real-time AI safety:
+
+*   **Groq:** For the ultra-low latency LPU™ inference engine that powers our Dual-Model Judge architecture.
+*   **Streamlit:** For providing the robust framework used to build our AI observability and evaluation dashboard.
+*   **Meta AI:** For the Llama-3.3 and Llama-3.1 model families that serve as the core of our generation and reasoning engines.
+
+---
+
+*Built for Scalable AI Governance.*
